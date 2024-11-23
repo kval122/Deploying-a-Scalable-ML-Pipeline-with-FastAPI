@@ -14,7 +14,7 @@ from ml.model import (
 )
 
 # Load the census.csv data
-project_path = r"\\wsl.localhost\Ubuntu\home\kim\Deploying-a-Scalable-ML-Pipeline-with-FastAPI"
+project_path = "/home/kim/Deploying-a-Scalable-ML-Pipeline-with-FastAPI"
 data_path = os.path.join(project_path, "data", "census.csv")
 print(data_path)
 data = pd.read_csv(data_path)
